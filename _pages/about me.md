@@ -26,7 +26,7 @@ My primary research interest lies in the field of **trustworthy artificial intel
 If you are interested in discussing with me, feel free to drop me an email (xli62@gmu.edu) or add my wechat (cris7ka8).
 
 # Publications
-- <span class='paper-badge'>Security 2025</span> **Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs**<br>***Xiang Li**, Ying Meng, Junming Chen, Lannan Luo, Qiang Zeng*<br>*USENIX Security Symposium, 2025*<br><span class='paper-asset'><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/li-xiang">PDF</a></span> <span class='paper-asset'><a href="https://doi.org/10.5281/zenodo.15609595">Code</a></span> <span class='paper-asset'><a href="https://oneflipbackdoor.github.io/">Website</a></span>
+- <span class='paper-badge'>Security 2025</span> **Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs**<br>***Xiang Li**, Ying Meng, Junming Chen, Lannan Luo, Qiang Zeng*<br>*USENIX Security Symposium, 2025*<br><span class='paper-asset'><a href="https://cs.gmu.edu/~zeng/papers/2025-Security-OneFlip.pdf">PDF</a></span> <span class='paper-asset'><a href="https://github.com/OneFlipBackdoor/OneFlip">Code</a></span> <span class='paper-asset'><a href="https://oneflipbackdoor.github.io/">Website</a></span>
 
 # Teaching Experience
 - Fall 2024, CS471, Operating Systems, Teaching Assistant.
@@ -39,6 +39,7 @@ If you are interested in discussing with me, feel free to drop me an email (xli6
 
 - *2021.09 - 2024.06*, Master, Southeast University, Nanjing. 
 - *2017.09 - 2021.06*, Undergraduate, Nanjing University of Information Science and Technology, Nanjing.
+
 
 
 
