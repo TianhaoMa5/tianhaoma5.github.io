@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-Xiang Li (李想) is currently a first-year Ph.D. student in [Department of Computer Science at George Mason University](https://cs.gmu.edu/)  supervised by [Prof. Qiang Zeng](https://cs.gmu.edu/~zeng/index.html). He received his M.E. degree in [School of Computer Science and Engineering at Southeast University](https://cse.seu.edu.cn/) under the supervision of [Prof. Kai Dong](https://cse.seu.edu.cn/2023/1024/c23024a469533/page.htm), and received his B.E. degree in [School of Computer Science at Nanjing University of Information Science and Technology](https://scs.nuist.edu.cn/main.htm).
+Xiang Li (李想) is currently a second-year Ph.D. student at George Mason University, supervised by [Prof. Qiang Zeng](https://cs.gmu.edu/~zeng/index.html). He received his M.E. degree from Southeast University under the supervision of [Prof. Kai Dong](https://cs.seu.edu.cn/dk/main.htm), and received his B.E. degree from Nanjing University of Information Science and Technology.
 
 My primary research interest lies in the field of **trustworthy artificial intelligence**.
 
@@ -39,6 +39,7 @@ If you are interested in discussing with me, feel free to drop me an email (xli6
 
 - *2021.09 - 2024.06*, Master, Southeast University, Nanjing. 
 - *2017.09 - 2021.06*, Undergraduate, Nanjing University of Information Science and Technology, Nanjing.
+
 
 
 
