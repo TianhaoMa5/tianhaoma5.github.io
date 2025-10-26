@@ -26,7 +26,7 @@ My primary research interest lies in the field of **trustworthy artificial intel
 If you are interested in discussing with me, feel free to drop me an email (xli62@gmu.edu).
 
 # Publications
-- <span class='paper-badge'>ICCV 2025</span> **Backdoor Attacks on Neural Networks via One-Bit Flip**<br>***Xiang Li**, Lannan Luo, Qiang Zeng*<br>*International Conference on Computer Vision, 2025*<br><span class='paper-asset'><a href="https://iccv.thecvf.com/virtual/2025/poster/2575">PDF</a></span> <span class='paper-asset'><a href="https://github.com/lx913/SoleFlip">Code</a></span>
+- <span class='paper-badge'>ICCV 2025</span> **Backdoor Attacks on Neural Networks via One-Bit Flip**<br>***Xiang Li**, Lannan Luo, Qiang Zeng*<br>*International Conference on Computer Vision, 2025*<br><span class='paper-asset'><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Backdoor_Attacks_on_Neural_Networks_via_One-Bit_Flip_ICCV_2025_paper.pdf">PDF</a></span> <span class='paper-asset'><a href="https://github.com/lx913/SoleFlip">Code</a></span>
 
 - <span class='paper-badge'>Security 2025</span> **Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs**<br>***Xiang Li**, Ying Meng, Junming Chen, Lannan Luo, Qiang Zeng*<br>*USENIX Security Symposium, 2025*<br><span class='paper-asset'><a href="https://cs.gmu.edu/~zeng/papers/2025-Security-OneFlip.pdf">PDF</a></span> <span class='paper-asset'><a href="https://github.com/OneFlipBackdoor/OneFlip">Code</a></span> <span class='paper-asset'><a href="https://oneflipbackdoor.github.io/">Website</a></span>
 
@@ -41,6 +41,7 @@ If you are interested in discussing with me, feel free to drop me an email (xli6
 
 - *2021.09 - 2024.06*, Master, Southeast University, Nanjing. 
 - *2017.09 - 2021.06*, Undergraduate, Nanjing University of Information Science and Technology, Nanjing.
+
 
 
 
