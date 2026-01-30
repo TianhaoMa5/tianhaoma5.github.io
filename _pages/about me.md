@@ -42,12 +42,14 @@ If you are interested in discussing with me, feel free to drop me an email (mati
 
 <small>\*Equal contribution (co-first authors)</small>
 
-
+<!--
 # Teaching Experience
-
-# Invited Talks
-
 # Honors and Awards
+# Invited Talks
+-->
+
+
+
 
 
 
