@@ -8,12 +8,12 @@
 # Site Settings
 title: "Tianhao Ma (天昊 馬)"
 description: "MS student at University of Tokyo. Focusing on weakly supervised learning and learning from label proportions."
-repository: "matianhao/matianhao.github.io"
+repository: "tianhaoma5/tianhaoma5.github.io"
 google_scholar_stats_use_cdn: true
 
 
 # google analytics
-google_analytics_id      :  "_Vx3dZgAAAAJ&hl=zh-CN"# get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      : 
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
@@ -24,12 +24,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiang Li"
   avatar           : "images/xiang li.jpg"
-  bio              : "George Mason University"
-  location         : "Fairfax, VA, America"
+  bio              : "University of Tokyo"
+  location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?user=_Vx3dZgAAAAJ&hl=zh-CN"
-  email            : "xli62@gmu.edu"
+  email            : "matianhao2120@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -38,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "lx913" # e.g., "github username"
+  github           : "TianhaoMa5" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
