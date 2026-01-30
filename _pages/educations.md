@@ -18,5 +18,6 @@ redirect_from:
 
 # Educations
 
-- *2021.09 - 2024.06*, Master, Southeast University, Nanjing. 
-- *2017.09 - 2021.06*, Undergraduate, Nanjing University of Information Science & Technology, Nanjing.
+- *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
+- *2020.09 - 2024.06*, Undergraduate, Jilin University, Jilin.
+
