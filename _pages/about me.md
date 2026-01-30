@@ -48,7 +48,11 @@ If you are interested in discussing with me, feel free to drop me an email (mati
 # Invited Talks
 -->
 
+# Honors and Awards
 
+- Yunnan Provincial Campus Football Tournament (云南省校园足球最佳阵容比赛)— **1st Place**, 2019
+- Jilin Provincial Collegiate Football Championship (吉林省大学生足球锦标赛专业组) — **5th Place**, 2021
+- **National Second Prize Scholarship**, 2023
 
 
 
@@ -57,6 +61,7 @@ If you are interested in discussing with me, feel free to drop me an email (mati
 
 - *2025.04 - 2027.03*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Undergraduate, Jilin University, Jilin.
+
 
 
 
