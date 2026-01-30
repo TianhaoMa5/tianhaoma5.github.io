@@ -59,8 +59,9 @@ If you are interested in discussing with me, feel free to drop me an email (mati
 
 # Educations
 
-- *2025.04 - 2027.03*, Master, University of Tokyo, Tokyo. 
-- *2020.09 - 2024.07*, Undergraduate, Jilin University, Jilin.
+- *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
+- *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
