@@ -6,10 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiang Li (李想)"
-description              : "Ph.D. student at George Mason University. Focusing on trustworthy artificial intelligence."
-repository               : "https://github.com/lx913/lx913.github.io"
-google_scholar_stats_use_cdn : true
+title: "Tianhao Ma (天昊 馬)"
+description: "MS student at University of Tokyo. Focusing on weakly supervised learning and learning from label proportions."
+repository: "matianhao/matianhao.github.io"
+google_scholar_stats_use_cdn: true
+
 
 # google analytics
 google_analytics_id      :  "_Vx3dZgAAAAJ&hl=zh-CN"# get google_analytics_id from https://analytics.google.com/analytics/
