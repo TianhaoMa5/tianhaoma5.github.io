@@ -24,6 +24,8 @@ My primary research interest lies in the field of **weakly supervised learning a
 
 If you are interested in discussing with me, feel free to drop me an email (matianhao2120@g.ecc.u-tokyo.ac.jp).
 
+Furthermore, I am currently seeking PhD positions and am open to discussing potential research opportunities.
+
 # Publications
 
 
@@ -61,6 +63,7 @@ If you are interested in discussing with me, feel free to drop me an email (mati
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
