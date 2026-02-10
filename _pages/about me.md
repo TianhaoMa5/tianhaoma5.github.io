@@ -20,7 +20,7 @@ redirect_from:
 # About Me
 
 Tianhao Ma is currently a first-year M.E. student at University of Tokyo, under the supervision of [Prof. Masashi Sugiyama](https://scholar.google.com/citations?hl=ja&user=GkYIrlIAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Takashi Ishida](https://scholar.google.com/citations?hl=ja&user=IzoyKyUAAAAJ&view_op=list_works&sortby=pubdate), and collaborates with [Dr. Gang Niu](https://scholar.google.co.jp/citations?user=HOkcy00AAAAJ&hl=en). He received his B.E. degree from Jilin University under the supervision of [Prof. Ximing Li](https://scholar.google.com/citations?user=2WQ--c4AAAAJ&hl=zh-CN&authuser=1).
-My primary research interest lies in the field of **weakly supervised learning and learning from label proportions**. Outside of research, he is an amateur football player and a China National Second-Class Athlete.
+My primary research interest lies in statistical machine learning and learning from label proportions. Outside of research, he is an amateur football player and a China National Second-Class Athlete.
 
 If you are interested in discussing with me, feel free to drop me an email (matianhao2120 at g.ecc.u-tokyo.ac.jp).
 
@@ -63,6 +63,7 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
