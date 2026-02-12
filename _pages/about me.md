@@ -36,12 +36,12 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
   
 - <span class='paper-badge'>ICLR 2026</span> **Learning from Label Proportions via Proportional Value Classification**<br>
   ***Tianhao Ma**, Wei Wang, Ximing Li, Gang Niu, Masashi Sugiyama*<br>
-  *International Conference on Learning Representations (ICLR), 2026*
+  *International Conference on Learning Representations (ICLR), 2026*<br>
   <span class='paper-asset'><a href="https://drive.google.com/file/d/1V6fTYZqnnkBKE86FyvbXEhmv-OySvx39/view?usp=sharing">PDF</a></span>
   
 - <span class='paper-badge'>ICLR 2026</span> **Rethinking Consistent Multi-Label Classification under Inexact Supervision**<br>
   *Wei Wang\*, **Tianhao Ma**\*, Ming-Kun Xie, Gang Niu, Masashi Sugiyama*<br>
-  *International Conference on Learning Representations (ICLR), 2026*
+  *International Conference on Learning Representations (ICLR), 2026*<br>
   <span class='paper-asset'><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span>
 
 
@@ -66,6 +66,7 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
