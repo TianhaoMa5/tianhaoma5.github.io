@@ -28,21 +28,21 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 # Publications
 
+- <span class='paper-badge'>ICLR 2026</span> **Learning from Label Proportions via Proportional Value Classification**<br>
+  ***Tianhao Ma**, Wei Wang, Ximing Li, Gang Niu, Masashi Sugiyama*<br>
+  *International Conference on Learning Representations (ICLR), 2026*<br>
+  <span class='paper-asset'><a href="[https://drive.google.com/file/d/1V6fTYZqnnkBKE86FyvbXEhmv-OySvx39/view?usp=sharing](https://openreview.net/pdf?id=JkFBc9anLi)">PDF</a></span>
+  
+- <span class='paper-badge'>ICLR 2026</span> **Rethinking Consistent Multi-Label Classification under Inexact Supervision**<br>
+  *Wei Wang\*, **Tianhao Ma**\*, Ming-Kun Xie, Gang Niu, Masashi Sugiyama*<br>
+  *International Conference on Learning Representations (ICLR), 2026*<br>
+  <span class='paper-asset'><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span>
 
 - <span class='paper-badge'>CVPR 2025</span> **Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions**<br>
   ***Tianhao Ma**\*, Han Chen\*, Juncheng Hu, Yungang Zhu, Ximing Li*<br>
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025*<br>
   <span class='paper-asset'><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf">PDF</a></span>
   
-- <span class='paper-badge'>ICLR 2026</span> **Learning from Label Proportions via Proportional Value Classification**<br>
-  ***Tianhao Ma**, Wei Wang, Ximing Li, Gang Niu, Masashi Sugiyama*<br>
-  *International Conference on Learning Representations (ICLR), 2026*<br>
-  <span class='paper-asset'><a href="https://drive.google.com/file/d/1V6fTYZqnnkBKE86FyvbXEhmv-OySvx39/view?usp=sharing">PDF</a></span>
-  
-- <span class='paper-badge'>ICLR 2026</span> **Rethinking Consistent Multi-Label Classification under Inexact Supervision**<br>
-  *Wei Wang\*, **Tianhao Ma**\*, Ming-Kun Xie, Gang Niu, Masashi Sugiyama*<br>
-  *International Conference on Learning Representations (ICLR), 2026*<br>
-  <span class='paper-asset'><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span>
 
 
 <small>\*Equal contribution (co-first authors)</small>
@@ -66,6 +66,7 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
