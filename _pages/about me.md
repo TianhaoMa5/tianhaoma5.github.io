@@ -43,6 +43,10 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025*<br>
   <span class='paper-asset'><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf">PDF</a></span>
   
+- <span class='paper-badge'>CVPR 2026 Findings</span> **Learning from Label Proportion with Dual-proportion Constraints**<br>
+  ***Tianhao Ma**, Ximing Li, Changchun Li, Renchu Guan*<br>
+  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026*<br>
+
 
 
 <small>\*Equal contribution (co-first authors)</small>
@@ -66,6 +70,7 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
