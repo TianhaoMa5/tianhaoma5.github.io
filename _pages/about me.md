@@ -28,6 +28,10 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 # Publications
 
+<p>
+During my master’s study, I focus on weakly supervised learning and design algorithms with theoretical guarantees, with an emphasis on principled consistency and risk analysis.
+</p>
+
 - <span class='paper-badge'>ICLR 2026</span> **Learning from Label Proportions via Proportional Value Classification**<br>
   ***Tianhao Ma**, Wei Wang, Ximing Li, Gang Niu, Masashi Sugiyama*<br>
   *International Conference on Learning Representations (ICLR), 2026*<br>
@@ -37,6 +41,10 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
   *Wei Wang\*, **Tianhao Ma**\*, Ming-Kun Xie, Gang Niu, Masashi Sugiyama*<br>
   *International Conference on Learning Representations (ICLR), 2026*<br>
   <span class='paper-asset'><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span>
+
+<p>
+My earlier undergraduate research explored heuristic strategies to improve empirical performance of learning from label proportions, focusing on more effective optimization objectives and practical gains.
+</p>
 
 - <span class='paper-badge'>CVPR 2025</span> **Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions**<br>
   ***Tianhao Ma**\*, Han Chen\*, Juncheng Hu, Yungang Zhu, Ximing Li*<br>
@@ -70,6 +78,7 @@ Furthermore, I am currently seeking PhD positions and am open to discussing pote
 
 - *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
 - *2020.09 - 2024.07*, Bachelor, Jilin University, Jilin.
+
 
 
 
