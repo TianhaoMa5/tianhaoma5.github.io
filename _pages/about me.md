@@ -54,7 +54,7 @@ My earlier undergraduate research explored heuristic strategies to improve empir
 - <span class='paper-badge'>CVPR 2026 Findings</span> **Learning from Label Proportion with Dual-proportion Constraints**<br>
   ***Tianhao Ma**, Ximing Li, Changchun Li, Renchu Guan*<br>
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026*<br>
-  <span class='paper-asset'><a href="">PDF</a></span>
+  <span class='paper-asset'><a href="https://arxiv.org/pdf/2603.21153">PDF</a></span>
 
 
 <small>\*Equal contribution (co-first authors)</small>
