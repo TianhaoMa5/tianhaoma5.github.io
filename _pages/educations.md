@@ -18,6 +18,5 @@ redirect_from:
 
 # Educations
 
-- *2025.04 - 2027.03 (expected)*, Master, University of Tokyo, Tokyo. 
-- *2020.09 - 2024.06*, Undergraduate, Jilin University, Jilin.
-
+- *2025.04 - 2027.03 (expected)*, Master in **Computer Science**, University of Tokyo, Tokyo. 
+- *2020.09 - 2024.06*, B.S. in **Computer Science**, Jilin University, Jilin.
