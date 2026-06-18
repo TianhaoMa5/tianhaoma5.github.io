@@ -1,11 +1,9 @@
 {% if site.visitor_map_url and site.visitor_map_image %}
-<div class="page__footer">
-  <footer>
-    <div class="visitor-map" aria-label="Visitor map">
-      <a href="{{ site.visitor_map_url }}" title="Visit tracker">
-        <img src="{{ site.visitor_map_image }}" alt="Visit tracker">
-      </a>
-    </div>
-  </footer>
-</div>
+<footer class="visitor-map-footer">
+  <div class="visitor-map" aria-label="Visitor map">
+    <a href="{{ site.visitor_map_url }}" title="Visit tracker">
+      <img src="{{ site.visitor_map_image }}" alt="Visit tracker">
+    </a>
+  </div>
+</footer>
 {% endif %}
