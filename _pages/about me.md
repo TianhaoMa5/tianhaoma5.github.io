@@ -83,7 +83,7 @@ My earlier undergraduate research explored heuristic strategies to improve empir
 
 # Academic Services
 
-- Conference Reviewer: NeurIPS
+- Conference Reviewer: NeurIPS 2026
 
 
 

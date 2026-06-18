@@ -158,3 +158,17 @@ h1:before,
 a:hover {
   font-weight: bolder;
 }
+
+.visitor-map {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: auto;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

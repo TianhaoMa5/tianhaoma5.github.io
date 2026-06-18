@@ -15,6 +15,10 @@ google_scholar_stats_use_cdn: true
 # google analytics
 google_analytics_id      : G-VNYS1J3YEW
 
+# Visitor map
+visitor_map_url          : "https://mapmyvisitors.com/web/1c5m6"
+visitor_map_image        : "https://mapmyvisitors.com/map.png?d=-qDv9PAR5CGZkkWVBO6_hheYJSwFkjEyTE8gCoLnJFU&cl=ffffff"
+
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
