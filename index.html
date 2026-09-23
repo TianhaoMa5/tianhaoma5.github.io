@@ -71,13 +71,40 @@
     padding-left: 0.75rem;
   }
 
-  .language-switcher select {
-    padding: 0.3rem 1.6rem 0.3rem 0.55rem;
-    color: #494e52;
-    background-color: #fff;
-    border: 1px solid #bdc1c4;
-    border-radius: 4px;
-    font-size: 0.9rem;
+  .language-switcher__control {
+    display: inline-flex;
+    gap: 0.1rem;
+    padding: 0.18rem;
+    background: #f2f4f5;
+    border: 1px solid #e0e3e5;
+    border-radius: 999px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+
+  .greedy-nav .language-switcher__control .language-option {
+    margin: 0;
+    padding: 0.28rem 0.55rem;
+    color: #6f777d;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.1;
+    text-decoration: none;
+    transition: color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .greedy-nav .language-switcher__control .language-option::before {
+    display: none;
+  }
+
+  .greedy-nav .language-switcher__control .language-option:hover {
+    color: #224b8d;
+  }
+
+  .greedy-nav .language-switcher__control .language-option.is-active {
+    color: #fff;
+    background: #224b8d;
+    box-shadow: 0 1px 3px rgba(34, 75, 141, 0.24);
   }
 </style>
 
@@ -110,12 +137,12 @@
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" data-i18n="nav.home">Homepage</a></li>
 
             <li class="masthead__menu-item language-switcher">
-              <label class="screen-reader-text" for="language-select">Language</label>
-              <select id="language-select" aria-label="Language">
-                <option value="en">English</option>
-                <option value="zh">中文</option>
-                <option value="ja">日本語</option>
-              </select>
+              <span class="screen-reader-text" id="language-switcher-label">Language</span>
+              <span class="language-switcher__control" role="group" aria-labelledby="language-switcher-label">
+                <a href="#" class="language-option is-active" data-language="en" role="button" aria-pressed="true">EN</a>
+                <a href="#" class="language-option" data-language="zh" role="button" aria-pressed="false">中文</a>
+                <a href="#" class="language-option" data-language="ja" role="button" aria-pressed="false">日本語</a>
+              </span>
             </li>
           
             <li class="masthead__menu-item"><a href="/#about-me" data-i18n="nav.about">About Me</a></li>
@@ -462,33 +489,33 @@ My earlier undergraduate research explored heuristic strategies to improve empir
         "nav.home": "主页",
         "nav.about": "关于我",
         "nav.news": "动态",
-        "nav.publications": "论文",
+        "nav.publications": "论文发表",
         "nav.honors": "荣誉与奖项",
         "nav.education": "教育经历",
         "nav.talks": "受邀报告",
-        "profile.degree": "东京大学硕士生。",
-        "profile.location": "日本东京",
+        "profile.degree": "东京大学硕士二年级",
+        "profile.location": "东京，日本",
         "heading.about": "关于我",
-        "heading.projects": "进行中的项目",
-        "heading.publications": "论文",
+        "heading.projects": "研究项目",
+        "heading.publications": "论文发表",
         "heading.honors": "荣誉与奖项",
         "heading.education": "教育经历",
         "heading.talks": "受邀报告",
         "heading.services": "学术服务",
-        "about.studentPrefix": "Tianhao Ma 目前是东京大学硕士二年级学生，导师为",
+        "about.studentPrefix": "我目前是东京大学硕士二年级学生，师从",
         "common.and": "和",
         "about.collaborates": "，并与",
-        "about.undergraduate": "合作。他本科毕业于吉林大学，本科导师为",
+        "about.undergraduate": "开展合作研究。本科毕业于吉林大学，师从",
         "punctuation.period": "。",
-        "about.research": "他目前的研究方向为可信机器学习，尤其关注 LLM 可靠性与 LLM 水印。他曾从事统计机器学习与弱监督学习研究。研究之外，他是一名业余足球运动员、中国国家二级运动员和国家三级足球裁判员。",
-        "about.contact": "如果你有兴趣与我交流，欢迎发送邮件至 matianhao2120 at g.ecc.u-tokyo.ac.jp。",
-        "about.phd": "此外，我目前正在寻找博士研究机会，欢迎与我讨论潜在的研究合作。",
+        "about.research": "我的研究兴趣主要集中在可信机器学习，尤其是大语言模型（LLM）的可靠性与水印技术。此前，我也研究过统计机器学习和弱监督学习。科研之外，我喜欢踢足球，是中国国家二级运动员和国家三级足球裁判员。",
+        "about.contact": "如果你想交流研究问题，欢迎邮件联系我：matianhao2120 at g.ecc.u-tokyo.ac.jp。",
+        "about.phd": "我目前正在申请博士项目，也很乐意交流潜在的研究机会与合作。",
         "project.submitted": "已投稿",
         "project.firstAuthor": "（第一作者）",
-        "publications.master": "硕士期间，我主要研究弱监督学习，并设计具有理论保证的算法，重点关注严格的一致性与风险分析。",
-        "publications.undergraduate": "本科期间，我曾探索提升标签比例学习经验性能的启发式方法，重点关注更有效的优化目标与实际性能提升。",
-        "publications.equal": "*同等贡献（共同第一作者）",
-        "honors.note": "我过去的学习成绩并不特别突出，因此获得的学业类奖项较少。",
+        "publications.master": "硕士阶段，我主要研究弱监督学习，致力于设计具有理论保证的算法，重点关注一致性与风险分析。",
+        "publications.undergraduate": "本科阶段，我主要探索用于提升标签比例学习实际效果的启发式方法，关注更有效的优化目标与性能改进。",
+        "publications.equal": "*同等贡献（共同一作）",
+        "honors.note": "我过去的学业表现并不突出，因此学术类奖项不多。",
         "education.expected": "（预计）",
         "education.master": "硕士",
         "education.bachelor": "学士",
@@ -503,29 +530,29 @@ My earlier undergraduate research explored heuristic strategies to improve empir
         "nav.honors": "受賞歴",
         "nav.education": "学歴",
         "nav.talks": "招待講演",
-        "profile.degree": "東京大学大学院 修士課程。",
-        "profile.location": "東京、日本",
+        "profile.degree": "東京大学大学院 修士2年",
+        "profile.location": "東京（日本）",
         "heading.about": "プロフィール",
-        "heading.projects": "進行中のプロジェクト",
+        "heading.projects": "研究プロジェクト",
         "heading.publications": "論文",
         "heading.honors": "受賞歴",
         "heading.education": "学歴",
         "heading.talks": "招待講演",
         "heading.services": "学術活動",
-        "about.studentPrefix": "Tianhao Ma は現在、東京大学大学院の修士2年生で、",
-        "common.and": "および",
-        "about.collaborates": "の指導を受け、",
-        "about.undergraduate": "と共同研究を行っています。吉林大学で学士号を取得し、指導教員は",
-        "punctuation.period": "です。",
-        "about.research": "現在は信頼できる機械学習、特に LLM の信頼性と LLM ウォーターマーキングを研究しています。以前は統計的機械学習と弱教師あり学習に取り組んでいました。研究以外では、アマチュアのサッカー選手であり、中国国家二級運動員および国家三級サッカー審判員でもあります。",
-        "about.contact": "研究についてのご相談は、matianhao2120 at g.ecc.u-tokyo.ac.jp までお気軽にご連絡ください。",
-        "about.phd": "現在、博士課程の進学先を探しており、研究機会についてのご相談を歓迎しています。",
+        "about.studentPrefix": "現在、東京大学大学院の修士2年で、",
+        "common.and": "と",
+        "about.collaborates": "の指導のもと、",
+        "about.undergraduate": "とも共同研究を行っています。学部は吉林大学を卒業し、",
+        "punctuation.period": "の指導を受けました。",
+        "about.research": "現在は Trustworthy Machine Learning、特に大規模言語モデル（LLM）の信頼性とウォーターマーキングを研究しています。これまでに、統計的機械学習や弱教師あり学習にも取り組んできました。研究以外ではサッカーが好きで、中国の国家二級運動員および国家三級サッカー審判員の資格を持っています。",
+        "about.contact": "研究に関するご相談やディスカッションをご希望の方は、matianhao2120 at g.ecc.u-tokyo.ac.jp までお気軽にご連絡ください。",
+        "about.phd": "また、現在は博士課程への進学先を探しており、研究機会についてのご相談も歓迎しています。",
         "project.submitted": "投稿済み",
         "project.firstAuthor": "（筆頭著者）",
-        "publications.master": "修士課程では、弱教師あり学習を中心に、理論的保証を備えたアルゴリズムを設計し、原理的な一致性とリスク解析を重視しています。",
-        "publications.undergraduate": "学部時代には、ラベル比率学習の実証性能を高めるヒューリスティックな手法を研究し、より効果的な最適化目的と実用上の性能向上に注力しました。",
+        "publications.master": "修士課程では、弱教師あり学習を中心に、理論的保証をもつアルゴリズムの設計に取り組んでいます。特に、一致性とリスク解析を重視しています。",
+        "publications.undergraduate": "学部時代は、ラベル比率学習の性能向上を目指したヒューリスティックな手法を研究し、より効果的な最適化目的の設計と実用面での改善に取り組みました。",
         "publications.equal": "*同等貢献（共同筆頭著者）",
-        "honors.note": "過去の学業成績は特に優れていたわけではなく、学業に関する受賞歴は多くありません。",
+        "honors.note": "学業成績は決して目立つものではなく、学業に関する受賞歴も多くありません。",
         "education.expected": "（修了予定）",
         "education.master": "修士課程",
         "education.bachelor": "学士課程",
@@ -533,7 +560,7 @@ My earlier undergraduate research explored heuristic strategies to improve empir
       }
     };
 
-    var languageSelect = document.getElementById("language-select");
+    var languageOptions = document.querySelectorAll(".language-option");
 
     function applyLanguage(language) {
       if (!translations[language]) {
@@ -550,7 +577,11 @@ My earlier undergraduate research explored heuristic strategies to improve empir
         }
       });
 
-      languageSelect.value = language;
+      Array.prototype.forEach.call(languageOptions, function (option) {
+        var isActive = option.getAttribute("data-language") === language;
+        option.classList.toggle("is-active", isActive);
+        option.setAttribute("aria-pressed", isActive ? "true" : "false");
+      });
       try {
         window.localStorage.setItem("homepage-language", language);
       } catch (error) {
@@ -565,8 +596,11 @@ My earlier undergraduate research explored heuristic strategies to improve empir
       savedLanguage = "en";
     }
 
-    languageSelect.addEventListener("change", function (event) {
-      applyLanguage(event.target.value);
+    Array.prototype.forEach.call(languageOptions, function (option) {
+      option.addEventListener("click", function (event) {
+        event.preventDefault();
+        applyLanguage(option.getAttribute("data-language"));
+      });
     });
 
     applyLanguage(savedLanguage);
