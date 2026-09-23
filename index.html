@@ -582,18 +582,6 @@ My earlier undergraduate research explored heuristic strategies to improve empir
         option.classList.toggle("is-active", isActive);
         option.setAttribute("aria-pressed", isActive ? "true" : "false");
       });
-      try {
-        window.localStorage.setItem("homepage-language", language);
-      } catch (error) {
-        // The language switcher still works when storage is unavailable.
-      }
-    }
-
-    var savedLanguage = "en";
-    try {
-      savedLanguage = window.localStorage.getItem("homepage-language") || "en";
-    } catch (error) {
-      savedLanguage = "en";
     }
 
     Array.prototype.forEach.call(languageOptions, function (option) {
@@ -603,7 +591,7 @@ My earlier undergraduate research explored heuristic strategies to improve empir
       });
     });
 
-    applyLanguage(savedLanguage);
+    applyLanguage("en");
   }());
 </script>
 
