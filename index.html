@@ -66,6 +66,21 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
+<style>
+  .language-switcher {
+    padding-left: 0.75rem;
+  }
+
+  .language-switcher select {
+    padding: 0.3rem 1.6rem 0.3rem 0.55rem;
+    color: #494e52;
+    background-color: #fff;
+    border: 1px solid #bdc1c4;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+</style>
+
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -92,19 +107,28 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" data-i18n="nav.home">Homepage</a></li>
+
+            <li class="masthead__menu-item language-switcher">
+              <label class="screen-reader-text" for="language-select">Language</label>
+              <select id="language-select" aria-label="Language">
+                <option value="en">English</option>
+                <option value="zh">中文</option>
+                <option value="ja">日本語</option>
+              </select>
+            </li>
           
-            <li class="masthead__menu-item"><a href="/#about-me">About Me</a></li>
+            <li class="masthead__menu-item"><a href="/#about-me" data-i18n="nav.about">About Me</a></li>
           
-            <li class="masthead__menu-item"><a href="/#news">News</a></li>
+            <li class="masthead__menu-item"><a href="/#news" data-i18n="nav.news">News</a></li>
           
-            <li class="masthead__menu-item"><a href="/#publications">Publications</a></li>
+            <li class="masthead__menu-item"><a href="/#publications" data-i18n="nav.publications">Publications</a></li>
           
-            <li class="masthead__menu-item"><a href="/#honors-and-awards">Honors and Awards</a></li>
+            <li class="masthead__menu-item"><a href="/#honors-and-awards" data-i18n="nav.honors">Honors and Awards</a></li>
           
-            <li class="masthead__menu-item"><a href="/#educations">Educations</a></li>
+            <li class="masthead__menu-item"><a href="/#educations" data-i18n="nav.education">Educations</a></li>
           
-            <li class="masthead__menu-item"><a href="/#invited-talks">Invited Talks</a></li>
+            <li class="masthead__menu-item"><a href="/#invited-talks" data-i18n="nav.talks">Invited Talks</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -133,10 +157,10 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       
-        <li><div style="white-space: normal; margin-bottom: 1em;">Master in University of Tokyo. </div></li>
+        <li><div style="white-space: normal; margin-bottom: 1em;" data-i18n="profile.degree">Master's student at the University of Tokyo.</div></li>
       
       
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Tokyo, Japan</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span data-i18n="profile.location">Tokyo, Japan</span></li>
       
       
       
@@ -230,21 +254,21 @@
             
 <p><span class="anchor" id="about-me"></span></p>
 
-<h1 id="about-me">About Me</h1>
+<h1 id="about-me" data-i18n="heading.about">About Me</h1>
 
-<p>Tianhao Ma is currently a second-year M.E. student at the University of Tokyo, under the supervision of <a href="https://scholar.google.com/citations?hl=ja&amp;user=GkYIrlIAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Masashi Sugiyama</a> and <a href="https://scholar.google.com/citations?hl=ja&amp;user=IzoyKyUAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Takashi Ishida</a>, and collaborates with <a href="https://scholar.google.co.jp/citations?user=HOkcy00AAAAJ&amp;hl=en">Dr. Gang Niu</a>. He received his B.E. degree from Jilin University under the supervision of <a href="https://scholar.google.com/citations?user=2WQ--c4AAAAJ&amp;hl=zh-CN&amp;authuser=1">Prof. Ximing Li</a>.</p>
+<p><span data-i18n="about.studentPrefix">Tianhao Ma is currently a second-year M.E. student at the University of Tokyo, under the supervision of</span> <a href="https://scholar.google.com/citations?hl=ja&amp;user=GkYIrlIAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Masashi Sugiyama</a> <span data-i18n="common.and">and</span> <a href="https://scholar.google.com/citations?hl=ja&amp;user=IzoyKyUAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Prof. Takashi Ishida</a><span data-i18n="about.collaborates">, and collaborates with</span> <a href="https://scholar.google.co.jp/citations?user=HOkcy00AAAAJ&amp;hl=en">Dr. Gang Niu</a><span data-i18n="about.undergraduate">. He received his B.E. degree from Jilin University under the supervision of</span> <a href="https://scholar.google.com/citations?user=2WQ--c4AAAAJ&amp;hl=zh-CN&amp;authuser=1">Prof. Ximing Li</a><span data-i18n="punctuation.period">.</span></p>
 
-<p>His current research focuses on trustworthy machine learning, particularly LLM reliability and LLM watermarking. He previously worked on statistical machine learning and weakly supervised learning. Outside of research, he is an amateur football player, a China National Second-Class Athlete, and a National Level-3 Football Referee.</p>
+<p data-i18n="about.research">His current research focuses on trustworthy machine learning, particularly LLM reliability and LLM watermarking. He previously worked on statistical machine learning and weakly supervised learning. Outside of research, he is an amateur football player, a China National Second-Class Athlete, and a National Level-3 Football Referee.</p>
 
-<p>If you are interested in discussing with me, feel free to drop me an email (matianhao2120 at g.ecc.u-tokyo.ac.jp).</p>
+<p data-i18n="about.contact">If you are interested in discussing with me, feel free to drop me an email (matianhao2120 at g.ecc.u-tokyo.ac.jp).</p>
 
-<p>Furthermore, I am currently seeking PhD positions and am open to discussing potential research opportunities.</p>
+<p data-i18n="about.phd">Furthermore, I am currently seeking PhD positions and am open to discussing potential research opportunities.</p>
 
-<h1 id="ongoing-projects">Ongoing Projects</h1>
+<h1 id="ongoing-projects" data-i18n="heading.projects">Ongoing Projects</h1>
 
 <ul>
   <li>
-    <p><span class="paper-badge">Submitted</span> <strong>Learning from Label Proportions with High-Order Moment Information</strong> <em>(First Author)</em></p>
+    <p><span class="paper-badge" data-i18n="project.submitted">Submitted</span> <strong>Learning from Label Proportions with High-Order Moment Information</strong> <em data-i18n="project.firstAuthor">(First Author)</em></p>
   </li>
 </ul>
 
@@ -262,9 +286,9 @@
   </li>
 </ul>
 
-<h1 id="publications">Publications</h1>
+<h1 id="publications" data-i18n="heading.publications">Publications</h1>
 
-<p>
+<p data-i18n="publications.master">
 During my master’s study, I focus on weakly supervised learning and design algorithms with theoretical guarantees, with an emphasis on principled consistency and risk analysis.
 </p>
 
@@ -284,7 +308,7 @@ During my master’s study, I focus on weakly supervised learning and design alg
   </li>
 </ul>
 
-<p>
+<p data-i18n="publications.undergraduate">
 My earlier undergraduate research explored heuristic strategies to improve empirical performance of learning from label proportions, focusing on more effective optimization objectives and practical gains.
 </p>
 
@@ -305,7 +329,7 @@ My earlier undergraduate research explored heuristic strategies to improve empir
   </li>
 </ul>
 
-<p><small>*Equal contribution (co-first authors)</small></p>
+<p><small data-i18n="publications.equal">*Equal contribution (co-first authors)</small></p>
 
 <!--
 # Teaching Experience
@@ -313,9 +337,9 @@ My earlier undergraduate research explored heuristic strategies to improve empir
 # Invited Talks
 -->
 
-<h1 id="honors-and-awards">Honors and Awards</h1>
+<h1 id="honors-and-awards" data-i18n="heading.honors">Honors and Awards</h1>
 
-<p>I did not perform particularly well academically in the past and received few academic awards.</p>
+<p data-i18n="honors.note">I did not perform particularly well academically in the past and received few academic awards.</p>
 
 <ul>
   <li><strong>National Second Prize Scholarship</strong>, 2023</li>
@@ -323,23 +347,23 @@ My earlier undergraduate research explored heuristic strategies to improve empir
   <li>Jilin Provincial Collegiate Football Championship Super Division — <strong>5th Place</strong>, 2021</li>
 </ul>
 
-<h1 id="educations">Educations</h1>
+<h1 id="educations" data-i18n="heading.education">Education</h1>
 
 <ul>
-  <li><em>2025.04 - 2027.03 (expected)</em>, Master, University of Tokyo, Tokyo.</li>
-  <li><em>2020.09 - 2024.07</em>, Bachelor, Jilin University, Jilin.</li>
+  <li><em>2025.04 - 2027.03 <span data-i18n="education.expected">(expected)</span></em>, <span data-i18n="education.master">Master's degree</span>, University of Tokyo, Tokyo.</li>
+  <li><em>2020.09 - 2024.07</em>, <span data-i18n="education.bachelor">Bachelor's degree</span>, Jilin University, Jilin.</li>
 </ul>
 
-<h1 id="invited-talks">Invited Talks</h1>
+<h1 id="invited-talks" data-i18n="heading.talks">Invited Talks</h1>
 
 <ul>
   <li><em>Top Conference Session on Learning Theory and Its Applications</em>, Forum on Information Technology (FIT 2026), Kitakyushu, Japan, Sep. 2026.</li>
 </ul>
 
-<h1 id="academic-services">Academic Services</h1>
+<h1 id="academic-services" data-i18n="heading.services">Academic Services</h1>
 
 <ul>
-  <li>Conference Reviewer: ICLR 2027, NeurIPS 2026</li>
+  <li><span data-i18n="services.reviewer">Conference Reviewer:</span> ICLR 2027, NeurIPS 2026</li>
 </ul>
 
 
@@ -391,6 +415,162 @@ My earlier undergraduate research explored heuristic strategies to improve empir
             });
         });
     })
+</script>
+
+<script>
+  (function () {
+    var translations = {
+      en: {
+        "page.title": "THMA5 - Homepage",
+        "nav.home": "Homepage",
+        "nav.about": "About Me",
+        "nav.news": "News",
+        "nav.publications": "Publications",
+        "nav.honors": "Honors and Awards",
+        "nav.education": "Education",
+        "nav.talks": "Invited Talks",
+        "profile.degree": "Master's student at the University of Tokyo.",
+        "profile.location": "Tokyo, Japan",
+        "heading.about": "About Me",
+        "heading.projects": "Ongoing Projects",
+        "heading.publications": "Publications",
+        "heading.honors": "Honors and Awards",
+        "heading.education": "Education",
+        "heading.talks": "Invited Talks",
+        "heading.services": "Academic Services",
+        "about.studentPrefix": "Tianhao Ma is currently a second-year M.E. student at the University of Tokyo, under the supervision of",
+        "common.and": "and",
+        "about.collaborates": ", and collaborates with",
+        "about.undergraduate": ". He received his B.E. degree from Jilin University under the supervision of",
+        "punctuation.period": ".",
+        "about.research": "His current research focuses on trustworthy machine learning, particularly LLM reliability and LLM watermarking. He previously worked on statistical machine learning and weakly supervised learning. Outside of research, he is an amateur football player, a China National Second-Class Athlete, and a National Level-3 Football Referee.",
+        "about.contact": "If you are interested in discussing with me, feel free to drop me an email (matianhao2120 at g.ecc.u-tokyo.ac.jp).",
+        "about.phd": "Furthermore, I am currently seeking PhD positions and am open to discussing potential research opportunities.",
+        "project.submitted": "Submitted",
+        "project.firstAuthor": "(First Author)",
+        "publications.master": "During my master’s study, I focus on weakly supervised learning and design algorithms with theoretical guarantees, with an emphasis on principled consistency and risk analysis.",
+        "publications.undergraduate": "My earlier undergraduate research explored heuristic strategies to improve empirical performance of learning from label proportions, focusing on more effective optimization objectives and practical gains.",
+        "publications.equal": "*Equal contribution (co-first authors)",
+        "honors.note": "I did not perform particularly well academically in the past and received few academic awards.",
+        "education.expected": "(expected)",
+        "education.master": "Master's degree",
+        "education.bachelor": "Bachelor's degree",
+        "services.reviewer": "Conference Reviewer:"
+      },
+      zh: {
+        "page.title": "THMA5 - 个人主页",
+        "nav.home": "主页",
+        "nav.about": "关于我",
+        "nav.news": "动态",
+        "nav.publications": "论文",
+        "nav.honors": "荣誉与奖项",
+        "nav.education": "教育经历",
+        "nav.talks": "受邀报告",
+        "profile.degree": "东京大学硕士生。",
+        "profile.location": "日本东京",
+        "heading.about": "关于我",
+        "heading.projects": "进行中的项目",
+        "heading.publications": "论文",
+        "heading.honors": "荣誉与奖项",
+        "heading.education": "教育经历",
+        "heading.talks": "受邀报告",
+        "heading.services": "学术服务",
+        "about.studentPrefix": "Tianhao Ma 目前是东京大学硕士二年级学生，导师为",
+        "common.and": "和",
+        "about.collaborates": "，并与",
+        "about.undergraduate": "合作。他本科毕业于吉林大学，本科导师为",
+        "punctuation.period": "。",
+        "about.research": "他目前的研究方向为可信机器学习，尤其关注 LLM 可靠性与 LLM 水印。他曾从事统计机器学习与弱监督学习研究。研究之外，他是一名业余足球运动员、中国国家二级运动员和国家三级足球裁判员。",
+        "about.contact": "如果你有兴趣与我交流，欢迎发送邮件至 matianhao2120 at g.ecc.u-tokyo.ac.jp。",
+        "about.phd": "此外，我目前正在寻找博士研究机会，欢迎与我讨论潜在的研究合作。",
+        "project.submitted": "已投稿",
+        "project.firstAuthor": "（第一作者）",
+        "publications.master": "硕士期间，我主要研究弱监督学习，并设计具有理论保证的算法，重点关注严格的一致性与风险分析。",
+        "publications.undergraduate": "本科期间，我曾探索提升标签比例学习经验性能的启发式方法，重点关注更有效的优化目标与实际性能提升。",
+        "publications.equal": "*同等贡献（共同第一作者）",
+        "honors.note": "我过去的学习成绩并不特别突出，因此获得的学业类奖项较少。",
+        "education.expected": "（预计）",
+        "education.master": "硕士",
+        "education.bachelor": "学士",
+        "services.reviewer": "会议审稿人："
+      },
+      ja: {
+        "page.title": "THMA5 - ホームページ",
+        "nav.home": "ホーム",
+        "nav.about": "プロフィール",
+        "nav.news": "ニュース",
+        "nav.publications": "論文",
+        "nav.honors": "受賞歴",
+        "nav.education": "学歴",
+        "nav.talks": "招待講演",
+        "profile.degree": "東京大学大学院 修士課程。",
+        "profile.location": "東京、日本",
+        "heading.about": "プロフィール",
+        "heading.projects": "進行中のプロジェクト",
+        "heading.publications": "論文",
+        "heading.honors": "受賞歴",
+        "heading.education": "学歴",
+        "heading.talks": "招待講演",
+        "heading.services": "学術活動",
+        "about.studentPrefix": "Tianhao Ma は現在、東京大学大学院の修士2年生で、",
+        "common.and": "および",
+        "about.collaborates": "の指導を受け、",
+        "about.undergraduate": "と共同研究を行っています。吉林大学で学士号を取得し、指導教員は",
+        "punctuation.period": "です。",
+        "about.research": "現在は信頼できる機械学習、特に LLM の信頼性と LLM ウォーターマーキングを研究しています。以前は統計的機械学習と弱教師あり学習に取り組んでいました。研究以外では、アマチュアのサッカー選手であり、中国国家二級運動員および国家三級サッカー審判員でもあります。",
+        "about.contact": "研究についてのご相談は、matianhao2120 at g.ecc.u-tokyo.ac.jp までお気軽にご連絡ください。",
+        "about.phd": "現在、博士課程の進学先を探しており、研究機会についてのご相談を歓迎しています。",
+        "project.submitted": "投稿済み",
+        "project.firstAuthor": "（筆頭著者）",
+        "publications.master": "修士課程では、弱教師あり学習を中心に、理論的保証を備えたアルゴリズムを設計し、原理的な一致性とリスク解析を重視しています。",
+        "publications.undergraduate": "学部時代には、ラベル比率学習の実証性能を高めるヒューリスティックな手法を研究し、より効果的な最適化目的と実用上の性能向上に注力しました。",
+        "publications.equal": "*同等貢献（共同筆頭著者）",
+        "honors.note": "過去の学業成績は特に優れていたわけではなく、学業に関する受賞歴は多くありません。",
+        "education.expected": "（修了予定）",
+        "education.master": "修士課程",
+        "education.bachelor": "学士課程",
+        "services.reviewer": "国際会議査読者："
+      }
+    };
+
+    var languageSelect = document.getElementById("language-select");
+
+    function applyLanguage(language) {
+      if (!translations[language]) {
+        language = "en";
+      }
+
+      document.documentElement.lang = language === "zh" ? "zh-CN" : language;
+      document.title = translations[language]["page.title"];
+
+      Array.prototype.forEach.call(document.querySelectorAll("[data-i18n]"), function (element) {
+        var key = element.getAttribute("data-i18n");
+        if (translations[language][key]) {
+          element.textContent = translations[language][key];
+        }
+      });
+
+      languageSelect.value = language;
+      try {
+        window.localStorage.setItem("homepage-language", language);
+      } catch (error) {
+        // The language switcher still works when storage is unavailable.
+      }
+    }
+
+    var savedLanguage = "en";
+    try {
+      savedLanguage = window.localStorage.getItem("homepage-language") || "en";
+    } catch (error) {
+      savedLanguage = "en";
+    }
+
+    languageSelect.addEventListener("change", function (event) {
+      applyLanguage(event.target.value);
+    });
+
+    applyLanguage(savedLanguage);
+  }());
 </script>
 
 
