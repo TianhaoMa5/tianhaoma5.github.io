@@ -50,6 +50,7 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/paper-summaries.css">
 
 <meta http-equiv="cleartype" content="on">
 <head>
@@ -249,12 +250,18 @@
 
 <ul>
   <li>
-    <p><strong>🇩🇰 DenMark: Robust Semantic Watermarking for Diffusion Language Models</strong><br />
+    <p class="paper-meta"><strong>🇩🇰 DenMark: Robust Semantic Watermarking for Diffusion Language Models</strong><br />
 <em><strong>Tianhao Ma</strong>, Weihao Xuan, Dong-Dong Wu, Farshid Nooshi, Takashi Ishida, Gang Niu, Naoto Yokoya, Masashi Sugiyama</em><br />
 <em>Accepted at the <a href="https://7amin.github.io/diffulm-neurips2026/">NeurIPS 2026 DiffuLM Workshop</a>, Sydney, Australia.</em><br />
-DenMark is the <strong>first robust semantic-level</strong> watermarking framework for diffusion language models. It uses one-step completion lookahead to progressively accumulate watermark signals in semantic embedding space rather than at the token level, enabling watermarking under any-order, highly parallel generation where autoregressive rejection sampling does not directly apply.<br />
+</p>
+<div class="paper-actions">
 <span class="paper-asset"><a href="https://arxiv.org/pdf/2609.14257">PDF</a></span>
-<span class="paper-asset"><a href="https://github.com/TianhaoMa5/DenMark">Code</a></span></p>
+<span class="paper-asset"><a href="https://github.com/TianhaoMa5/DenMark">Code</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-denmark" aria-label="Summary of DenMark">Summary</button>
+</div>
+<div id="summary-denmark" class="paper-summary" hidden>
+<p>DenMark is the <strong>first robust semantic-level</strong> watermarking framework for diffusion language models. It uses one-step completion lookahead to progressively accumulate watermark signals in semantic embedding space rather than at the token level, enabling watermarking under any-order, highly parallel generation where autoregressive rejection sampling does not directly apply.</p>
+</div>
   </li>
 </ul>
 
@@ -266,28 +273,46 @@ DenMark is the <strong>first robust semantic-level</strong> watermarking framewo
 
 <ul>
   <li>
-    <p><span class="paper-badge">NeurIPS 2026</span> <strong>Rethinking Learning from Label Proportions via Moment Matching</strong><br />
+    <p class="paper-meta"><span class="paper-badge">NeurIPS 2026</span> <strong>Rethinking Learning from Label Proportions via Moment Matching</strong><br />
 <em><strong>Tianhao Ma</strong>, Wei Wang, Yivan Zhang, Dong-Dong Wu, Takashi Ishida, Gang Niu, Masashi Sugiyama</em><br />
 <em>Advances in Neural Information Processing Systems (NeurIPS), 2026 — Sydney, Australia; Atlanta, USA; Paris, France</em><br />
-Under relatively realistic assumptions, bag-level class counts follow a Poisson multinomial distribution (PMD). Since computing the PMD directly is costly, we use a tractable multi-order empirical moment-matching objective to capture more distributional information. The method achieves strong results on semi-real and synthetic datasets.<br />
+</p>
+<div class="paper-actions">
 <span class="paper-asset"><a href="https://llp-moment-matching-paper.matianhao.chatgpt.site/paper.pdf">PDF</a></span>
-<span class="paper-asset"><a href="https://github.com/TianhaoMa5/LLP-MM">Code</a></span></p>
+<span class="paper-asset"><a href="https://github.com/TianhaoMa5/LLP-MM">Code</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-llp-mm" aria-label="Summary of LLP-MM">Summary</button>
+</div>
+<div id="summary-llp-mm" class="paper-summary" hidden>
+<p>Under relatively realistic assumptions, bag-level class counts follow a Poisson multinomial distribution (PMD). Since computing the PMD directly is costly, we use a tractable multi-order empirical moment-matching objective to capture more distributional information. The method achieves strong results on semi-real and synthetic datasets.</p>
+</div>
   </li>
   <li>
-    <p><span class="paper-badge">ICLR 2026</span> <strong>Learning from Label Proportions via Proportional Value Classification</strong><br />
+    <p class="paper-meta"><span class="paper-badge">ICLR 2026</span> <strong>Learning from Label Proportions via Proportional Value Classification</strong><br />
 <em><strong>Tianhao Ma</strong>, Wei Wang, Ximing Li, Gang Niu, Masashi Sugiyama</em><br />
 <em>International Conference on Learning Representations (ICLR), 2026 — Rio de Janeiro, Brazil</em><br />
-We reformulate LLP as an auxiliary proportional value classification task rather than fitting bag proportions directly. By connecting the posterior probabilities of bag-level proportional values with instance-level label posteriors, the method learns a more discriminative classifier and mitigates over-smoothing, with theoretical guarantees and strong empirical results.<br />
+</p>
+<div class="paper-actions">
 <span class="paper-asset"><a href="https://openreview.net/pdf?id=JkFBc9anLi">PDF</a></span>
-<span class="paper-asset"><a href="https://github.com/TianhaoMa5/ICLR2026_LLP-PVC">Code</a></span></p>
+<span class="paper-asset"><a href="https://github.com/TianhaoMa5/ICLR2026_LLP-PVC">Code</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-llp-pvc" aria-label="Summary of LLP-PVC">Summary</button>
+</div>
+<div id="summary-llp-pvc" class="paper-summary" hidden>
+<p>We reformulate LLP as an auxiliary proportional value classification task rather than fitting bag proportions directly. By connecting the posterior probabilities of bag-level proportional values with instance-level label posteriors, the method learns a more discriminative classifier and mitigates over-smoothing, with theoretical guarantees and strong empirical results.</p>
+</div>
   </li>
   <li>
-    <p><span class="paper-badge">CVPR 2025</span> <strong>Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions</strong><br />
+    <p class="paper-meta"><span class="paper-badge">CVPR 2025</span> <strong>Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions</strong><br />
 <em><strong>Tianhao Ma</strong>*, Han Chen*, Juncheng Hu, Yungang Zhu, Ximing Li</em><br />
 <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025 — Nashville, Tennessee, USA</em><br />
-We use dual entropy-based weighting to identify high-confidence pseudo-labels and form an auxiliary instance-level loss, which is jointly optimized with the bag-level loss. Averaged equally across five datasets and five bag sizes (25 benchmark settings), the method improves accuracy by <strong>9.13 percentage points over LLP-VAT and 17.99 percentage points over ROT</strong>.<br />
+</p>
+<div class="paper-actions">
 <span class="paper-asset"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf">PDF</a></span>
-<span class="paper-asset"><a href="https://github.com/TianhaoMa5/LLP-AHIL">Code</a></span></p>
+<span class="paper-asset"><a href="https://github.com/TianhaoMa5/LLP-AHIL">Code</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-llp-ahil" aria-label="Summary of LLP-AHIL">Summary</button>
+</div>
+<div id="summary-llp-ahil" class="paper-summary" hidden>
+<p>We use dual entropy-based weighting to identify high-confidence pseudo-labels and form an auxiliary instance-level loss, which is jointly optimized with the bag-level loss. Averaged equally across five datasets and five bag sizes (25 benchmark settings), the method improves accuracy by <strong>9.13 percentage points over LLP-VAT and 17.99 percentage points over ROT</strong>.</p>
+</div>
   </li>
 </ul>
 
@@ -295,11 +320,17 @@ We use dual entropy-based weighting to identify high-confidence pseudo-labels an
 
 <ul>
   <li>
-    <p><span class="paper-badge">ICLR 2026</span> <strong>Rethinking Consistent Multi-Label Classification under Inexact Supervision</strong><br />
+    <p class="paper-meta"><span class="paper-badge">ICLR 2026</span> <strong>Rethinking Consistent Multi-Label Classification under Inexact Supervision</strong><br />
 <em>Wei Wang*, <strong>Tianhao Ma</strong>*, Ming-Kun Xie, Gang Niu, Masashi Sugiyama</em><br />
 <em>International Conference on Learning Representations (ICLR), 2026 — Rio de Janeiro, Brazil</em><br />
-We reformulate the risks for Hamming loss and ranking loss using first- and second-order strategies and derive unbiased estimators without either requirement. We establish consistency and estimation-error bounds, and experiments on real-world and synthetic datasets show strong performance against state-of-the-art methods.<br />
-<span class="paper-asset"><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span></p>
+</p>
+<div class="paper-actions">
+<span class="paper-asset"><a href="https://arxiv.org/pdf/2510.04091">PDF</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-multi-label" aria-label="Summary of Rethinking Consistent Multi-Label Classification">Summary</button>
+</div>
+<div id="summary-multi-label" class="paper-summary" hidden>
+<p>We reformulate the risks for Hamming loss and ranking loss using first- and second-order strategies and derive unbiased estimators without either requirement. We establish consistency and estimation-error bounds, and experiments on real-world and synthetic datasets show strong performance against state-of-the-art methods.</p>
+</div>
   </li>
 </ul>
 
@@ -314,12 +345,18 @@ We reformulate the risks for Hamming loss and ranking loss using first- and seco
 <span class="paper-asset"><a href="https://papers.ssrn.com/sol3/Delivery.cfm/7319678.pdf?abstractid=7319678&amp;mirid=1">PDF</a></span></p>
     </li>
     <li>
-      <p><span class="paper-badge">CVPR 2026 Findings</span> <strong>Learning from Label Proportions with Dual-proportion Constraints</strong><br />
+      <p class="paper-meta"><span class="paper-badge">CVPR 2026 Findings</span> <strong>Learning from Label Proportions with Dual-proportion Constraints</strong><br />
 <em><strong>Tianhao Ma</strong>, Ximing Li, Changchun Li, Renchu Guan</em><br />
 <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026 — Denver, Colorado, USA</em><br />
-This work uses minimum-cost maximum-flow optimization to select pseudo-labels.<br />
+</p>
+<div class="paper-actions">
 <span class="paper-asset"><a href="https://arxiv.org/pdf/2603.21153">PDF</a></span>
-<span class="paper-asset"><a href="https://github.com/TianhaoMa5/CVPR2026_Findings_LLP_DC">Code</a></span></p>
+<span class="paper-asset"><a href="https://github.com/TianhaoMa5/CVPR2026_Findings_LLP_DC">Code</a></span>
+<button type="button" class="paper-summary-toggle" aria-expanded="false" aria-controls="summary-llp-dc" aria-label="Summary of Learning from Label Proportions with Dual-proportion Constraints">Summary</button>
+</div>
+<div id="summary-llp-dc" class="paper-summary" hidden>
+<p>This work uses minimum-cost maximum-flow optimization to select pseudo-labels.</p>
+</div>
     </li>
   </ul>
 </details>
@@ -396,6 +433,7 @@ This work uses minimum-cost maximum-flow optimization to select pseudo-labels.<b
 
 
     <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/paper-summaries.js"></script>
 
 
 
