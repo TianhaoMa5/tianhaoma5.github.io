@@ -1,0 +1,88 @@
+.llp-research-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.page__content .llp-publications {
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.research-trajectory {
+  padding: 1rem 0.9rem;
+  border: 1px solid #dce5f2;
+  border-radius: 12px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.page__content .research-trajectory h4 {
+  margin: 0 0 1rem;
+  color: #64748b;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page__content .trajectory-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trajectory-steps li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.trajectory-steps li + li {
+  margin-top: 2.6rem;
+}
+
+.trajectory-steps li + li::before {
+  content: "↓";
+  position: absolute;
+  top: -2.2rem;
+  left: 0;
+  right: 0;
+  color: #94a3b8;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.trajectory-steps span {
+  display: block;
+}
+
+.trajectory-venue {
+  color: #1e293b;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.trajectory-method {
+  margin-top: 0.2rem;
+  color: #64748b;
+  font-size: 0.8em;
+}
+
+.trajectory-idea {
+  margin-top: 0.55rem;
+  color: #334155;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+@media (min-width: 75em) {
+  .llp-research-layout {
+    grid-template-columns: minmax(0, 1fr) 14rem;
+    align-items: start;
+    column-gap: 1.5rem;
+  }
+}
