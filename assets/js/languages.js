@@ -21,8 +21,8 @@
     llp: ['标签比例学习（LLP）', 'ラベル比率からの学習（LLP）'],
     pml: ['偏多标签学习（PML）', '部分マルチラベル学習（PML）'],
     bio: [
-      '我是马天昊，目前在东京大学读硕士二年级，在 {{0}} 教授和 {{1}} 教授的指导下做研究，也与 {{2}} 博士合作。本科就读于吉林大学，师从 {{3}} 教授。',
-      '東京大学の修士課程2年に在籍している馬天昊です。{{0}} 先生と {{1}} 先生の指導のもと、{{2}} 博士とも共同研究を進めています。学部は吉林大学で、{{3}} 先生にご指導いただきました。'
+      '我是马天昊，目前在东京大学读硕士二年级，在{{0}}教授和{{1}}教授的指导下做研究，也与{{2}}博士合作。本科就读于吉林大学，师从{{3}}教授。',
+      '東京大学の修士課程2年に在籍している馬天昊です。{{0}}先生と{{1}}先生の指導のもと、{{2}}博士とも共同研究を進めています。学部は吉林大学で、{{3}}先生にご指導いただきました。'
     ],
     interests: [
       '我现在主要研究可信机器学习，尤其关注大语言模型的可靠性和安全性，之前做的是统计机器学习和弱监督学习。研究之外，我也踢业余足球，是国家二级运动员，也有足球三级裁判员资格。',
@@ -94,6 +94,12 @@
     reviewer: ['会议审稿人：ICLR 2027；NeurIPS 2026', '国際会議査読：ICLR 2027、NeurIPS 2026']
   };
 
+  var biographyNames = {
+    'Masashi Sugiyama': '杉山将',
+    'Takashi Ishida': '石田隆',
+    'Gang Niu': '牛罡',
+    'Ximing Li': '李熙铭'
+  };
   var bindings = [];
   function bind(element, key) {
     if (!element) return;
@@ -102,6 +108,9 @@
       var translatedLink = link.cloneNode(true);
       // Titles belong in the surrounding sentence, not in the proper name.
       translatedLink.textContent = translatedLink.textContent.replace(/^(Prof\.|Dr\.)\s+/, '');
+      if (key === 'bio' && biographyNames[translatedLink.textContent]) {
+        translatedLink.textContent = biographyNames[translatedLink.textContent];
+      }
       return translatedLink.outerHTML;
     });
     bindings.push({ element: element, key: key, english: english, links: links });
