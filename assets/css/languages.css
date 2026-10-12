@@ -1,0 +1,68 @@
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.masthead__inner-wrap::after {
+  display: none;
+}
+
+.language-switch {
+  display: inline-flex;
+  flex-shrink: 0;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  background: #f8fafc;
+}
+
+.language-switch button {
+  margin: 0;
+  padding: .35rem .65rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #64748b;
+  font: inherit;
+  font-size: .7rem;
+  line-height: 1.4;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.language-switch button[aria-pressed="true"] {
+  background: #fff;
+  color: #1e40af;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgb(15 23 42 / 12%);
+}
+
+.language-switch button:hover {
+  color: #1e40af;
+}
+
+.language-switch button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+html:lang(zh-CN) body {
+  font-family: "Trebuchet MS", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+html:lang(ja) body {
+  font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+@media (max-width: 47.99em) {
+  .masthead__inner-wrap { gap: .5rem; }
+  .greedy-nav { min-width: 0; }
+  .language-switch button { padding: .3rem .45rem; }
+}
