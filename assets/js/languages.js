@@ -16,6 +16,12 @@
     education: ['教育经历', '学歴'],
     talks: ['受邀报告', '招待講演'],
     services: ['学术服务', '学術活動'],
+    venueSydney: ['澳大利亚悉尼', 'オーストラリア・シドニー'],
+    venueAtlanta: ['美国亚特兰大', 'アメリカ・アトランタ'],
+    venueParis: ['法国巴黎', 'フランス・パリ'],
+    venueRio: ['巴西里约热内卢', 'ブラジル・リオデジャネイロ'],
+    venueNashville: ['美国田纳西州纳什维尔', 'アメリカ・テネシー州ナッシュビル'],
+    venueDenver: ['美国科罗拉多州丹佛', 'アメリカ・コロラド州デンバー'],
     reliable: ['大语言模型可靠性', '大規模言語モデルの信頼性'],
     weak: ['弱监督学习 / 统计机器学习', '弱教師あり学習 / 統計的機械学習'],
     llp: ['标签比例学习（LLP）', 'ラベル比率からの学習（LLP）'],
@@ -90,7 +96,7 @@
     uniFive: ['2023 年吉林大学校内五人制足球比赛 — <strong>第三名</strong>', '2023年 吉林大学学内5人制サッカー大会 — <strong>3位</strong>'],
     master: ['<em>2025.04 – 2027.03（预计毕业）</em>，东京大学，计算机科学硕士，东京。', '<em>2025.04 – 2027.03（修了予定）</em> 東京大学 修士課程（コンピュータ科学）、東京。'],
     bachelor: ['<em>2020.09 – 2024.07</em>，吉林大学，网络空间安全学士，吉林。', '<em>2020.09 – 2024.07</em> 吉林大学 学士課程（サイバーセキュリティ）、吉林。'],
-    invited: ['<em>Top Conference Session on Learning Theory and Its Applications</em>，Forum on Information Technology (FIT 2026)，日本北九州，2026 年 9 月。', '<em>Top Conference Session on Learning Theory and Its Applications</em>、Forum on Information Technology (FIT 2026)、北九州、2026年9月。'],
+    invited: ['<em>Top Conference Session on Learning Theory and Its Applications</em>，Forum on Information Technology (FIT 2026)，日本北九州，2026 年 9 月。', '<em>Top Conference Session on Learning Theory and Its Applications</em>、Forum on Information Technology (FIT 2026)、日本・北九州、2026年9月。'],
     reviewer: ['会议审稿人：ICLR 2027；NeurIPS 2026', '国際会議査読：ICLR 2027、NeurIPS 2026']
   };
 
