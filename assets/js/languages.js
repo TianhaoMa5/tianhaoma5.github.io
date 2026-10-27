@@ -97,7 +97,8 @@
     master: ['<em>2025.04 – 2027.03（预计毕业）</em>，东京大学，计算机科学硕士，东京。', '<em>2025.04 – 2027.03（修了予定）</em> 東京大学 修士課程（コンピュータ科学）、東京。'],
     bachelor: ['<em>2020.09 – 2024.07</em>，吉林大学，网络空间安全学士，吉林。', '<em>2020.09 – 2024.07</em> 吉林大学 学士課程（サイバーセキュリティ）、吉林。'],
     invited: ['<em>Top Conference Session on Learning Theory and Its Applications</em>，Forum on Information Technology (FIT 2026)，日本北九州，2026 年 9 月。', '<em>Top Conference Session on Learning Theory and Its Applications</em>、Forum on Information Technology (FIT 2026)、日本・北九州、2026年9月。'],
-    reviewer: ['会议审稿人：ICLR 2027；NeurIPS 2026', '国際会議査読：ICLR 2027、NeurIPS 2026']
+    reviewer: ['会议审稿人：ICLR（2027 年起）；NeurIPS（2026 年起）', '国際会議査読：ICLR（2027年〜）、NeurIPS（2026年〜）'],
+    journalReviewer: ['期刊审稿人：TPAMI', '学術誌査読：TPAMI']
   };
 
   var biographyNames = {
@@ -175,7 +176,8 @@
   bind(education[0], 'master');
   bind(education[1], 'bachelor');
   bindSelector('#invited-talks + ul > li', 'invited');
-  bindSelector('#academic-services + ul > li', 'reviewer');
+  bindSelector('#academic-services + ul > li:first-child', 'reviewer');
+  bindSelector('#academic-services + ul > li:last-child', 'journalReviewer');
 
   function setLanguage(language) {
     if (!['en', 'zh', 'ja'].includes(language)) return;
